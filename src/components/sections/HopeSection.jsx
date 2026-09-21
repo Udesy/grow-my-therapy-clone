@@ -3,9 +3,9 @@ import { ImageWithOverlay } from "../ui";
 
 const HopeSection = () => {
   return (
-    <section className="bleed-grid relative py-2xl min-h-screen max-md:px-[6vw]">
+    <section className="section-grid relative py-2xl min-h-screen max-md:px-[6vw]">
       {/* Heading + first paragraph block */}
-      <div className="col-span-8 md:col-start-2 md:col-span-7 flex flex-col justify-center gap-y-2xl md:gap-lg py-lg order-1">
+      <div className="col-span-8 md:col-start-2 md:col-span-7 flex flex-col justify-center gap-y-2xl py-lg order-1">
         <h2 className="font-serif text-xl lg:text-3xl md:leading-10 lg:leading-14">
           You’re holding onto hope that life can be better than it is right now.
         </h2>

@@ -10,6 +10,7 @@ const Hero = () => {
           alt={"Family walking on the beach"}
           fill
           className="object-cover"
+          loading="eager"
         />
       </div>
       <div className="h-full max-md:px-[6vw] col-span-8 md:col-start-7 md:col-end-14 flex flex-col justify-between max-md:gap-2xl px-[--spacing-page-x] order-1 md:order-2 max-md:py-xl">
@@ -38,6 +39,7 @@ const Hero = () => {
           alt="Ocean waves and mother and son walking on the beach"
           fill
           className="object-cover"
+          loading="eager"
         />
       </div>
     </section>

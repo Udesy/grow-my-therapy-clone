@@ -10,7 +10,7 @@ import {
 
 const Footer = () => {
   return (
-    <footer className="section-grid overflow-x-clip bg-white py-2xl px-[--spacing-page-x] max-md:px-[6vw]">
+    <footer className="section-grid overflow-x-clip bg-white py-2xl max-md:px-[6vw]">
       {/* Brand + description */}
       <div className="col-span-8 md:col-span-4 md:col-start-2 order-1 flex flex-col">
         <div className="relative w-full max-w-95 aspect-0/2">

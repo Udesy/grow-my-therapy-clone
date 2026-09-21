@@ -3,7 +3,7 @@ import { CtaLink, ImageWithOverlay } from "../ui";
 
 const HowWeWork = () => {
   return (
-    <section className="bleed-grid relative py-2xl max-md:px-[6vw] bg-surface">
+    <section className="section-grid relative py-2xl max-md:px-[6vw] min-h-screen bg-surface">
       {/* Eyebrow */}
       <p className="col-span-8 md:col-start-2 md:col-span-7 md:row-start-1 text-sm max-md:text-md tracking-widest uppercase text-secondary font-light order-1">
         How We Work
