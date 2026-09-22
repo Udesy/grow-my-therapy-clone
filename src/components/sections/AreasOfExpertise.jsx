@@ -10,7 +10,7 @@ const AreasOfExpertise = () => {
   return (
     <section className="max-md:px-[6vw] py-2xl section-grid bg-white">
       <h2 className="font-serif text-xl md:text-2xl leading-13 col-span-full md:col-start-2 md:col-span-3">
-        Our areas of <span className="font-script text-accent">expertise</span>
+        My areas of <span className="font-script text-accent">expertise</span>
       </h2>
 
       <div className="col-span-full md:col-start-6 md:col-span-8 grid grid-cols-1 md:grid-cols-2 gap-x-2xl font-light">

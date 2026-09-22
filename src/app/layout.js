@@ -22,8 +22,9 @@ const printedMoments = localFont({
 });
 
 export const metadata = {
-  title: "Conejo Valley",
-  description: "A clone Website by Uddeshya.",
+  title: "Therapy for Anxiety & Burnout in Santa Monica",
+  description:
+    "Dr. Maya Reynolds offers therapy for adults navigating anxiety, trauma, and burnout in Santa Monica. A warm, collaborative approach using CBT, EMDR, and mindfulness-based methods.",
 };
 
 export default function RootLayout({ children }) {

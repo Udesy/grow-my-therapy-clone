@@ -55,10 +55,10 @@
 }
 
 :root {
-  --color-primary: #f6f4ee;
-  --color-secondary: #2b2b2b;
-  --color-accent: #85b3b3;
-  --color-surface: #e3d9cb;
+  --color-primary: #fdfbf7;
+  --color-secondary: #2e2a26;
+  --color-accent: #6b825e;
+  --color-surface: #e4dacb;
   --white-hsl: 0, 0%, 100%;
   --color-cta-primary: var(--color-secondary);
   --image-overlay-color: hsla(var(--white-hsl), 0.11);

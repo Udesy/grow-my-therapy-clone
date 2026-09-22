@@ -1,10 +1,11 @@
 import {
+  About,
   AreasOfExpertise,
   FindTherapistCta,
   Hero,
   Honoring,
-  HopeSection,
   HowWeWork,
+  MyOffice,
   Ourhelp,
   QuoteBanner,
   Specialties,
@@ -15,11 +16,12 @@ export default function Home() {
     <>
       <main>
         <Hero />
-        <HopeSection />
+        <About />
         <Ourhelp />
         <QuoteBanner />
         <AreasOfExpertise />
         <HowWeWork />
+        <MyOffice />
         <Honoring />
         <Specialties />
         <FindTherapistCta />

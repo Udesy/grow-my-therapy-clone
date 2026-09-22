@@ -4,30 +4,9 @@ import { ImageWithOverlay } from "../ui";
 
 const WhoWeHelp = () => {
   return (
-    // <section className="px-[--spacing-page-x] py-3xl bg-white">
-    //   <h2 className="font-serif text-3xl md:text-display leading-display mb-2xl">
-    //     Who we <span className="font-script text-accent">help</span>
-    //   </h2>
-
-    //   <div className="w-full bleed-grid">
-    //     <div className="col-start-3 col-span-8 grid grid-cols-1 md:grid-cols-3 gap-lg">
-    //       {whoWeHelp.map(({ title, image, alt, description }) => (
-    //         <div key={title} className="flex flex-col">
-    //           <div className="relative w-full aspect-3/4 md:aspect-4/5">
-    //             <Image src={image} alt={alt} fill className="object-cover" />
-    //           </div>
-
-    //           <h3 className="font-serif text-xl mt-lg mb-sm">{title}</h3>
-    //           <p className="text-base font-light">{description}</p>
-    //         </div>
-    //       ))}
-    //     </div>
-    //   </div>
-    // </section>
-
     <section className="px-[--spacing-page-x] py-2xl max-md:px-[6vw] bg-white bleed-grid">
       <h2 className="md:col-start-2 col-span-full font-serif text-2xl md:text-3xl leading-display mb-md">
-        Who we <span className="font-script text-accent">help</span>
+        How I can <span className="font-script text-accent">help</span>.
       </h2>
 
       <div className="col-span-full md:col-start-3 md:col-span-11 grid grid-cols-1 gap-y-3xl md:grid-cols-3 md:gap-md ">

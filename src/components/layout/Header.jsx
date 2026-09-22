@@ -154,12 +154,12 @@ const NavItem = ({ item }) => {
             : "opacity-0 -translate-y-1 pointer-events-none"
         }`}
       >
-        <ul className="flex flex-col gap-y-xs">
+        <ul className="flex flex-col gap-y-2xs">
           {item.dropdown.map((entry) => (
             <li key={entry.id}>
               <Link
                 href="#"
-                className="block whitespace-nowrap text-sm pb-1 text-right font-light border-secondary/0 border-b hover:border-secondary transition-colors"
+                className="block whitespace-nowrap text-sm pb-2 text-right font-light border-secondary/0 border-b hover:border-secondary transition-colors"
               >
                 {entry.name
                   ? `${entry.name}${entry.credential ? `, ${entry.credential}` : ""}`
@@ -222,10 +222,7 @@ const Header = () => {
               <NavItem key={item.id} item={item} />
             ))}
           </div>
-          <Button
-            label={"Contact"}
-            className={"py-[0.9rem] px-[1.3rem] text-2xs"}
-          />
+          <Button label={"Contact"} className={"py-sm px-md text-2xs"} />
         </div>
 
         <div className="flex justify-center items-center lg:hidden">

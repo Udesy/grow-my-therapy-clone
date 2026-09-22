@@ -6,6 +6,7 @@ import {
   footerContact,
   footerBrand,
   footerNavigation,
+  specialities,
 } from "@/lib/constant";
 
 const Footer = () => {
@@ -51,16 +52,16 @@ const Footer = () => {
         {/* Our Team — 3rd on desktop, last on mobile */}
         <div className="col-span-4 md:col-span-1 order-4 md:order-3 mt-2xl md:mt-0">
           <p className="text-sm tracking-widest uppercase text-secondary font-light mb-md">
-            Our Team
+            Specialities
           </p>
           <ul className="flex flex-col gap-2xs">
-            {team.map(({ id, name }) => (
+            {specialities.map(({ id, label }) => (
               <li key={id}>
                 <Link
                   href="#"
                   className="text-sm md:text-xs font-light leading-2.5 hover:text-accent transition-colors"
                 >
-                  {name}
+                  {label}
                 </Link>
               </li>
             ))}

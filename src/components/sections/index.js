@@ -1,5 +1,5 @@
 import Hero from "./Hero";
-import HopeSection from "./HopeSection";
+import About from "./About";
 import Ourhelp from "./Ourhelp";
 import QuoteBanner from "./QuoteBanner";
 import AreasOfExpertise from "./AreasOfExpertise";
@@ -7,10 +7,11 @@ import HowWeWork from "./HowWeWork";
 import Honoring from "./Honoring";
 import Specialties from "./Specialities";
 import FindTherapistCta from "./FindTherapsitCta";
+import MyOffice from "./MyOffice";
 
 export {
   Hero,
-  HopeSection,
+  About,
   Ourhelp,
   QuoteBanner,
   AreasOfExpertise,
@@ -18,4 +19,5 @@ export {
   Honoring,
   Specialties,
   FindTherapistCta,
+  MyOffice,
 };
