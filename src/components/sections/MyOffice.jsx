@@ -37,7 +37,7 @@ const Office = () => {
       </div>
       <div className="h-full col-span-8 md:col-start-8 md:col-end-14 flex flex-col justify-center max-md:gap-2xl px-[--spacing-page-x] order-1 md:order-2 max-md:py-xl">
         <p className="text-sm tracking-widest uppercase text-secondary font-light md:max-w-[50ch]">
-          My Office
+          A Calm Space for Healing
         </p>
         <div className="flex flex-col md:gap-y-lg mt-lg">
           <h2 className="font-serif text-3xl leading-tight">
