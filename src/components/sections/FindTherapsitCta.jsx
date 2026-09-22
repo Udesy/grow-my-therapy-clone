@@ -7,7 +7,7 @@ const FindTherapistCta = () => {
       {/* Left image — narrow, bleeds to the left edge, hidden on mobile per mock */}
       <div className="hidden md:block relative md:col-start-1 md:col-span-2 h-[40vh] md:h-[55vh] order-1">
         <ImageWithOverlay
-          src="/images/Image6.png"
+          src="/images/Image7.png"
           alt="A hand reaching down to collect shells on the sand"
           fill
           className="object-cover"
