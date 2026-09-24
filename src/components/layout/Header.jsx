@@ -199,6 +199,13 @@ const Header = () => {
     return () => window.removeEventListener("resize", setHeaderHeightVar);
   }, []);
 
+  useEffect(() => {
+    if (window.innerWidth >= 1024) return;
+    console.log("scroll lock:", open);
+    document.documentElement.style.overflow = open ? "hidden" : "";
+    document.body.style.overflow = open ? "hidden" : "";
+  }, [open]);
+
   return (
     <>
       <div
